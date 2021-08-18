@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SecondPageActivity"
+    android:background="#000">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CURRENT BATTLE"
+        android:textColor="#FFC107"
+        android:textSize="@dimen/_20sdp"
+        android:fontFamily="@font/audiowide_regular"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_50sdp"/>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_80sdp"
+        android:background="@drawable/round_small"
+        android:backgroundTint="#696969"
+        android:layout_marginLeft="@dimen/_30sdp"
+        android:layout_marginRight="@dimen/_30sdp"
+        android:layout_marginTop="@dimen/_30sdp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/txt_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:textSize="@dimen/_14sdp"
+          android:layout_marginLeft="@dimen/_30sdp"
+            android:layout_marginTop="@dimen/_10sdp"/>
+
+        <TextView
+            android:id="@+id/txt_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:textSize="@dimen/_14sdp"
+            android:layout_marginLeft="@dimen/_30sdp"
+            android:layout_marginTop="@dimen/_10sdp"/>
+
+    </LinearLayout>
+
+<androidx.recyclerview.widget.RecyclerView
+    android:id="@+id/rec_all_list"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/_20sdp"/>
+
+
+
+    <TextView
+        android:id="@+id/txt_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:text="sadrsefsrfgfdsg"
+        android:textSize="@dimen/_14sdp"
+        android:layout_marginLeft="@dimen/_30sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:visibility="gone"/>
+
+
+
+
+</LinearLayout>
